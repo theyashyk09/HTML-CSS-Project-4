@@ -1,0 +1,89 @@
+body{
+    height: 100vh;
+    margin: 60px 100px;
+}
+
+.navbar{
+    height: 20vh;
+}
+
+
+.list{
+    margin-left: 200px;
+    margin-top: -60px;
+
+}
+
+.list-item{
+    list-style-type: none;
+    display: inline-block;
+    font-family: Poppins;
+    color: #bebebe;
+    padding: 15px;
+
+}
+
+.list-item:first-child{
+    color: #1f1f1f;
+    font-weight: 600;
+}
+
+.button-group{
+    margin-left: 500px;
+    margin-top: -70px;
+    margin-left: 1150px;
+}
+
+.nav-button{
+   background-color:#5955b3;
+   border: none;
+   color: #FFFFFF;
+   padding:15px 45px;
+   border-radius: 10px;
+   font-family: Poppins;
+}
+
+.banner{
+    height: 80vh;
+}
+
+.banner-container div img{
+    height: 90%;
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+.heading-text{
+    font-family: Poppins;
+    font-size: 50px;
+    width: 400px;
+    position: relative;
+    top: 60px;
+    color: #3c2f60;
+}
+
+h1>span {
+    color: #5955b3;
+}
+
+.description{
+    font-family: Poppins;
+    font-size: 15px;
+    width: 350px;
+    position: relative;
+    top: 40px;
+    color: #8a8a8a;
+}
+
+.btn{
+    position: relative;
+    top: 80px;
+    left: 10px;
+    padding: 25px 60px;
+    font-size: 20px;
+}
+
+button,li {
+    cursor: pointer;
+  }
